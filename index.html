@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>RSSchool CV</title>
+    <title>CV Elena Zhidenko</title>
 </head>
 <body>
-    <h1>My Resume</h1>
+    <img src="photo.jpg" alt="Elena Zhidenko">
+    <header>
+        <h1>Elena Zhidenko</h1>
+    </header>
+
+    <main>
+        <nav>
+        <h2>My contact info</h2>
+        <ul>
+            <li><strong>Adress:</strong> Russia, Apsheronsk</li>
+            <li><strong>Phone:</strong>+7 (967) 000-00-00</li>
+            <li><strong>Email:</strong>elenka.zhidenko@gmail.com</li>
+        </ul>
+        </nav>
+    <h2>About me</h2>
+        <p>I am a third-year student at Maikop State Technical University,
+            majoring in Applied Informatics. I am 31 years old, and my main profession
+            is a pharmacist, a field in which I have been working for 10 years. I am
+            attempting this course for the third time, as I usually don't have enough time.
+            I enjoy reading fiction, sometimes embroidering, and I'm a huge fan of rock music.
+        </p>
+    <h2>Entry-level Skils</h2>
+    <ul>
+        <li>HTML&CSS</li>
+        <li>C++</li>
+        <li>Java</li>
+    </ul>
+    <h2>Code example</h2>
+    <p>Расчет параллельного соединения сопротивлений:</p>
+            <pre><code>
+                #include &lt;iostream&gt;
+                using namespace std;
+
+                int main() {
+                float R, R1, R2, R3;
+                setlocale(LC_ALL, "Rus");
+                cout << "Введите значение R1: ";
+                cin >> R1;
+                // ... ввод R2 и R3
+                R = 1/((1 / R1) + (1 / R2) + (1 / R3));
+                cout << "Сопротивление соединения: " << R;
+                return 0;
+                }
+            </code></pre>
+    <h2>Work Experience</h2>
+    <p>With no experience</p>
+    <h2>Education</h2>
+        <p>Student Maikop State Technical University</p>
+    <h2>Language</h2>
+    <ul>
+        <li>Russian (native)</li>
+        <li>English (A2)</li>
+    </ul>
+    </main>
+
+    <footer>
+        <a href="https://github.com/ElenaZhidenko29">My GitHub</a>
+        <span>2026</span>
+        <a href="rs-school-logo.svg">
+            <img src="https://rs.school/courses/javascript-preschool-ru" alt="RS School Logo" width="50">
+        </a>
+    </footer>
 </body>
 </html>
