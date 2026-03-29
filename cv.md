@@ -17,3 +17,36 @@
    * HTML&CSS
    * C++
    * Java
+   
+## Code example
+```
+#include <iostream>
+using namespace std;
+
+//Три сопротивления R1, R2, R3 соединены параллельно. Найти сопротивление соединения.
+int main()
+{
+    float R, R1, R2, R3; // float, потому что получим дробное значение. Можно r1,r2,r3 задать int-ом, а r уже float
+    setlocale(LC_ALL, "Rus");
+    cout << "Введите значение R1: ";
+    cin >> R1;
+	cout << "Введите значение R2: ";
+	cin >> R2;
+	cout << "Введите значение R3: ";
+	cin >> R3;
+	R = 1/((1 / R1) + (1 / R2) + (1 / R3));
+	cout << "Сопротивление соединения: " << R;
+	return 0;
+}
+
+```
+
+## Work Experience
+ With no experience
+
+## Education
+ Student Maikop State Technical University
+
+## Language
+   * Russian (native)
+   * English (A2)
